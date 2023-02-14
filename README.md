@@ -1,4 +1,4 @@
 # Данечка Егошин
 Пытаюсь освоить Github
 
-[первый сайт](https://danich-xyanich.github.io/index.html)- Рабов с репозиторием Github
+[первый сайт](https://danich-xyanich.github.io/index.html)- Работа с репозиторием Github
