@@ -1,0 +1,97 @@
+@import "nullmain.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.wrapper{
+    margin: 10px 10%;
+    .text{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 80px;
+        line-height: 1.5;
+        .text__item2{
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+    .main{
+        margin-top: 50px;
+        margin-left: 120px;
+        text-align: center;
+        display: flex;
+        .video{
+            display: flex;
+        }
+        .form{
+            margin-left: 30px;
+            text-align: center;
+            border: 5px solid blueviolet ;
+            .form__text{
+                margin: 21px 0px;
+                font-size: 20px;
+                font-weight: 900;
+
+            }
+            .form__item{
+                .input{
+                    border: 1px solid #333;
+                    width: 300px;
+                    padding: 15px;
+                    margin: 10px 10px 0px 10px;
+                    font-size: 19px;
+                }
+            }
+            .button{
+                background-color: rgb(21, 255, 255);
+                text-align:center ;
+                margin: 20px;
+                height: 60px;
+                color: white;
+                padding: 13px;
+                font-weight: 700;
+                width: 300px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+.section{
+    background-color: brown;
+    color: beige;
+    font-weight: 700;
+    .sec__title{
+        text-align: center;
+        padding: 90px 0px 70px 0px;
+        margin-top: 90px;
+        .sec__item{
+            font-size: 40px;
+            margin-bottom: 200px;
+        }
+        .sec__container{
+            display: flex;
+            justify-content:space-between;
+            .sec__item2{
+                margin: 50px 50px;
+            }
+        }
+        .button{
+                background-color: rgb(21, 255, 255);
+                text-align:center ;
+                margin: 20px;
+                height: 60px;
+                color: white;
+                padding: 13px;
+                font-weight: 700;
+                width: 300px;
+                font-size: 18px;
+            }
+    }
+}
+
